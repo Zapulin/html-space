@@ -1,0 +1,49 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(espacio.jpg);
+}
+h1 {
+    box-sizing: border-box;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 2px 0 0 rgb(255, 232, 31), -2px 0 0 rgb(255, 232, 31), 0 2px 0 rgb(255, 232, 31), 0 -2px 0 rgb(255, 232, 31), 1px 1px rgb(255, 232, 31), -1px -1px 0 rgb(255, 232, 31), 1px -1px 0 rgb(255, 232, 31), -1px 1px 0 rgb(255, 232, 31);
+}
+
+section {
+    box-sizing: border-box;
+    width: 500px;
+    margin-right:auto;
+    margin-left:auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 232, 31);
+    text-align: center;
+
+}
+
+div.numSerie {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 25px;
+}
+
+div.r2d2 {
+    text-align: left;
+    padding-left: 25px;
+    padding-bottom: 10px;
+
+}
+
+.buttons {
+    background-image: url(espacio.jpg);
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    letter-spacing: 2px;
+    text-shadow: 1px 0 0 rgb(255, 232, 31), -1px 0 0 rgb(255, 232, 31), 0 1px 0 rgb(255, 232, 31), 0 -1px 0 rgb(255, 232, 31), 1px 1px rgb(255, 232, 31), -1px -1px 0 rgb(255, 232, 31), 1px -1px 0 rgb(255, 232, 31), -1px 1px 0 rgb(255, 232, 31);
+
+}

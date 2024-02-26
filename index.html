@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Practica 2</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+  </head>
+  <body>
+    <h1>PRACTICA 2</h1>
+    <section>
+        <div class='numSerie'>
+            <label for="numSerie">Numero de serie: </label>
+            <input type="text" id="numSerie">
+        </div>
+        <div class='r2d2'>
+            <label for="r2d2">R2D2: </label>
+            <input type="checkbox" id="r2d2">
+        </div>
+        <div>
+            <button type="submit" id="iniciar" class='buttons'>INICIAR</button>
+        </div>
+    </section>
+
+    <section>
+      <div>
+        <textarea id="statusPanel" id="" cols="50" rows="3"></textarea>
+      </div>
+        <div>
+          <textarea id="gamePanel" id="" cols="50" rows="6"></textarea>
+        </div>
+        <div>
+          <button type="submit" onclick="game();" id="disparar" class='buttons'>DISPARAR</button>
+          <button type="submit" onclick="game();" id="reparar" class='buttons'>REPARAR</button>
+        </div>  
+    </section>
+
+    <script src="js/classes/CazaEstelar.js"></script>
+    <script src="js/classes/XWing.js"></script>
+    <script src="js/classes/TieFighter.js"></script>
+    <script src="js/helpers.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
